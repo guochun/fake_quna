@@ -1,17 +1,17 @@
 <template>
-<div class="header">
-  <div class="header-left">
-    <i class="iconfont back-icon">&#xe624;</i>
+  <div class="header">
+    <div class="header-left">
+      <i class="iconfont back-icon">&#xe624;</i>
+    </div>
+    <div class="header-input">
+      <i class="iconfont">&#xe632;</i>
+      输入城市/景点/游玩主题
+    </div>
+    <div class="header-right">
+      城市
+      <i class="iconfont arrow-icon">&#xe600;</i>
+    </div>
   </div>
-  <div class="header-input">
-    <i class="iconfont">&#xe632;</i>
-    输入城市/景点/游玩主题
-  </div>
-  <div class="header-right">
-    城市
-    <i class="iconfont arrow-icon">&#xe600;</i>
-  </div>
-</div>
 </template>
 
 <script>
