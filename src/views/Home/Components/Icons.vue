@@ -95,9 +95,11 @@ export default {
 <style lang="stylus" scoped>
   @import '~@/assets/css/variables.styl'
   @import '~@/assets/css/mixins.styl'
+  .icon
+    width 100%
   .icons >>> .swiper-container
     height 0
-    padding-bottom 53%
+    padding-bottom 3.7rem
     overflow hidden
   .icons >>> .swiper-pagination-bullet
     width  6px
@@ -112,7 +114,7 @@ export default {
     overflow hidden
     height 0
     width 25%
-    padding-bottom 25%
+    padding-bottom 1.8rem
   .icon-img
     position absolute
     top 0
