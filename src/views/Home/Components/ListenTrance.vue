@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'ListenTrance'
+  name: 'HomeListenTrance'
 }
 </script>
 

@@ -12,76 +12,38 @@
         </span>
       </div>
       <swiper :options="swiperOption">
-        <swiper-slide>
+        <swiper-slide v-for="item of recommendList" :key="item.id">
           <div class="hot-item">
-            <img  class='hot-img' src="http://img1.qunarzz.com/sight/p0/1412/b5/c99be07b7b79cfb5900e03a35bc3051f.water.jpg_250x250_4addcc26.jpg" alt="">
-            <div class="hot-sale">深圳欢乐谷</div>
-            <div class="hot-list-price"><span>¥87.5</span>起</div>
+            <img  class='hot-img' :src="item.url">
+            <div class="hot-sale">{{item.pos}}</div>
+            <div class="hot-list-price"><span>¥{{item.price}}</span> 起</div>
           </div>
         </swiper-slide>
-        <swiper-slide>
-          <div class="hot-item">
-            <img  class='hot-img' src="http://img1.qunarzz.com/sight/p0/1412/b5/c99be07b7b79cfb5900e03a35bc3051f.water.jpg_250x250_4addcc26.jpg" alt="">
-            <div class="hot-sale">深圳欢乐谷</div>
-            <div class="hot-list-price"><span>¥87.5</span>起</div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="hot-item">
-            <img  class='hot-img' src="http://img1.qunarzz.com/sight/p0/1412/b5/c99be07b7b79cfb5900e03a35bc3051f.water.jpg_250x250_4addcc26.jpg" alt="">
-            <div class="hot-sale">深圳欢乐谷</div>
-            <div class="hot-list-price"><span>¥87.5</span>起</div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="hot-item">
-            <img  class='hot-img' src="http://img1.qunarzz.com/sight/p0/1412/b5/c99be07b7b79cfb5900e03a35bc3051f.water.jpg_250x250_4addcc26.jpg" alt="">
-            <div class="hot-sale">深圳欢乐谷</div>
-            <div class="hot-list-price"><span>¥87.5</span>起</div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="hot-item">
-            <img  class='hot-img' src="http://img1.qunarzz.com/sight/p0/1412/b5/c99be07b7b79cfb5900e03a35bc3051f.water.jpg_250x250_4addcc26.jpg" alt="">
-            <div class="hot-sale">深圳欢乐谷</div>
-            <div class="hot-list-price"><span>¥87.5</span>起</div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="hot-item">
-            <img  class='hot-img' src="http://img1.qunarzz.com/sight/p0/1412/b5/c99be07b7b79cfb5900e03a35bc3051f.water.jpg_250x250_4addcc26.jpg" alt="">
-            <div class="hot-sale">深圳欢乐谷</div>
-            <div class="hot-list-price"><span>¥87.5</span>起</div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="hot-item">
-            <img  class='hot-img' src="http://img1.qunarzz.com/sight/p0/1412/b5/c99be07b7b79cfb5900e03a35bc3051f.water.jpg_250x250_4addcc26.jpg" alt="">
-            <div class="hot-sale">深圳欢乐谷</div>
-            <div class="hot-list-price"><span>¥87.5</span>起</div>
-          </div>
-        </swiper-slide>
-        <div class="swiper-scrollbar"   slot="scrollbar"></div>
       </swiper>
+      <div class="swiper-scrollbar" slot="scrollbar"></div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Recommend',
+  name: 'HomeRecommend',
   data () {
     return {
       swiperOption: {
-        slidesPerView: "auto",
-        scrollbar:'.swiper-scrollbar'
+        slidesPerView: 'auto',
+        scrollbar: '.swiper-scrollbar'
       }
     }
+  },
+  props: {
+    recommendList: Array
   }
 }
 </script>
 
 <style lang="stylus" scoped>
+  @import '~@/assets/css/mixins.styl'
   .recommend >>> .swiper-slide
     margin-right .1rem
     width 2rem
@@ -132,6 +94,7 @@ export default {
       .hot-sale
         text-align center
         margin-top .1rem
+        ellipsis()
       .hot-list-price
         text-align center
         margin-top .1rem

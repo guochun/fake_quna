@@ -1,0 +1,187 @@
+{
+  "code": 0,
+  "data": {
+    "city": "深圳",
+    "swiperList": [
+      {
+        "id": "0001",
+        "url": "http://img1.qunarzz.com/piao/fusion/1811/68/c66e4cde1ee62602.jpg_750x200_e9b97acd.jpg"
+      },
+      {
+        "id": "0002",
+        "url": "http://img1.qunarzz.com/piao/fusion/1809/c6/2467595fffc3b302.jpg_750x200_cca13d51.jpg"
+      },
+      {
+        "id": "0003",
+        "url": "http://img1.qunarzz.com/piao/fusion/1811/ec/f6967f24afeef202.jpg_750x200_9415719f.jpg"
+      },
+      {
+        "id": "0004",
+        "url": "http://img1.qunarzz.com/piao/fusion/1809/61/44400d6591891202.jpg_750x200_7565a05c.jpg"
+      },
+      {
+        "id": "0005",
+        "url": "http://img1.qunarzz.com/piao/fusion/1811/d4/7fa0b173c269f802.jpg_750x200_b8d88f51.jpg"
+      },
+      {
+        "id": "0006",
+        "url": "http://img1.qunarzz.com/piao/fusion/1811/ce/77e115fea8f99102.jpg_750x200_a2d0fcd2.jpg"
+      },
+      {
+        "id": "0007",
+        "url": "http://img1.qunarzz.com/piao/fusion/1809/ae/7518c2fbc1415202.jpg_750x200_09bbe391.jpg"
+      }
+    ],
+    "iconList": [
+      {
+        "id": "0001",
+        "url": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "content": "景点门票"
+      },
+      {
+        "id": "0002",
+        "url": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "content": "深圳必游"
+      },
+      {
+        "id": "0003",
+        "url": "http://img1.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png",
+        "content": "游乐场"
+      },
+      {
+        "id": "0004",
+        "url": "http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png",
+        "content": "海洋馆"
+      },
+      {
+        "id": "0005",
+        "url": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "content": "动植物园"
+      },
+      {
+        "id": "0006",
+        "url": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+        "content": "泡温泉"
+      },
+      {
+        "id": "0007",
+        "url": "https://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+        "content": "打卡圣地"
+      },
+      {
+        "id": "0008",
+        "url": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "content": "一日游"
+      },
+      {
+        "id": "0009",
+        "url": "http://img1.qunarzz.com/piao/fusion/1803/b6/37560ece9c62b502.png",
+        "content": "东部华侨城"
+      },
+      {
+        "id": "0010",
+        "url": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png",
+        "content": "全部游玩"
+      }
+    ],
+    "recommendList": [
+      {
+        "id": "0001",
+        "url": "http://img1.qunarzz.com/sight/p0/1809/87/8796d4dfe0366858a3.water.png_250x250_c747671a.png",
+        "pos": "世界之窗",
+        "price": "58"
+      },
+      {
+        "id": "0002",
+        "url": "http://img1.qunarzz.com/sight/p0/1412/b5/c99be07b7b79cfb5900e03a35bc3051f.water.jpg_250x250_4addcc26.jpg",
+        "pos": "欢乐谷",
+        "price": "84.5"
+      },
+      {
+        "id": "0003",
+        "url": "http://img1.qunarzz.com/sight/p0/1502/15/15ca1d0eab6bf46c.water.jpg_250x250_c834cd82.jpg",
+        "pos": "东部华侨城大峡谷",
+        "price": "127"
+      },
+      {
+        "id": "0004",
+        "url": "http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_250x250_b592c33d.jpg",
+        "pos": "深圳野生动物园",
+        "price": "230"
+      },
+      {
+        "id": "0005",
+        "url": "http://img1.qunarzz.com/sight/p0/201307/18/f25ac054eec3804dc8d65eac.jpg_250x250_b9ebca61.jpg",
+        "pos": "海洋奇梦馆",
+        "price": "48.8"
+      },
+      {
+        "id": "0006",
+        "url": "http://img1.qunarzz.com/sight/p0/1603/9d/9d8c0e9a01bba92e90.water.jpg_250x250_f0bd5b33.jpg",
+        "pos": "锦绣中华民族村",
+        "price": "44.3"
+      },
+      {
+        "id": "0007",
+        "url": "http://img1.qunarzz.com/sight/p0/1608/6d/6d3c093626e8ceaca3.water.jpg_250x250_6a61c8a6.jpg",
+        "pos": "华侨城",
+        "price": "44.3"
+      },
+      {
+        "id": "0008",
+        "url": "http://img1.qunarzz.com/sight/p0/1507/64/34362835b4a219af8b36803d31a6380f.water.jpg_250x250_764d6c11.jpg",
+        "pos": "深圳小梅沙海洋世界",
+        "price": "69.9"
+      },
+      {
+        "id": "0009",
+        "url": "http://img1.qunarzz.com/sight/p0/1505/1a/1a0c7df5276f1fa4.water.jpg_250x250_6b5a1c29.jpg",
+        "pos": "东部华侨城",
+        "price": "137"
+      },
+      {
+        "id": "00010",
+        "url": "http://img1.qunarzz.com/sight/p0/1507/e4/a3f526c57e0115798af52929d294ddd6.water.jpg_250x250_6b917a35.jpg",
+        "pos": "东部华侨城茶溪谷",
+        "price": "164.01"
+      }
+    ],
+    "guessLikeList": [
+      {
+        "id": "0001",
+        "url": "http://img1.qunarzz.com/sight/p0/1809/87/8796d4dfe0366858a3.water.png_200x200_ca6e25bf.png",
+        "content": "世界之窗",
+        "pos": "华侨城",
+        "price": "85"
+      },
+      {
+        "id": "0002",
+        "url": "http://img1.qunarzz.com/sight/p0/1412/b5/c99be07b7b79cfb5900e03a35bc3051f.water.jpg_200x200_e839eb8e.jpg",
+        "content": "深圳欢乐谷",
+        "pos": "南山区",
+        "price": "84.5"
+      },
+      {
+        "id": "0003",
+        "url": "http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg",
+        "content": "深圳野生动物园",
+        "pos": "南山区",
+        "price": "230"
+      },
+      {
+        "id": "0004",
+        "url": "http://img1.qunarzz.com/sight/p0/1502/15/15ca1d0eab6bf46c.water.jpg_200x200_50ca7bb1.jpg",
+        "content": "东部华侨城大峡谷",
+        "pos": "东部华侨城",
+        "price": "137"
+      },
+      {
+        "id": "0005",
+        "url": "http://img1.qunarzz.com/sight/p0/1507/64/34362835b4a219af8b36803d31a6380f.water.jpg_200x200_bc5c0452.jpg",
+        "content": "深圳小梅沙海洋世界",
+        "pos": "小梅沙",
+        "price": "69.9"
+      }
+    ]
+  }
+}

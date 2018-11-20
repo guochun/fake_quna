@@ -12,6 +12,7 @@ import 'swiper/dist/css/swiper.css'
 
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import fastClick from 'fastclick'
+import axios from 'axios'
 
 Vue.config.productionTip = false
 Vue.config.devtools = true
@@ -19,6 +20,7 @@ Vue.config.devtools = true
 fastClick.attach(document.body)
 
 Vue.use(VueAwesomeSwiper)
+Vue.prototype.$axios = axios
 
 new Vue({
   router,
